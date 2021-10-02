@@ -30,6 +30,10 @@ class Analysis:
                 logger.info("filepath not present {}".format(path))
 
         # Solution of analytics 1
+        logger.info("##############################"
+                    " SOLUTION OF QUESTION 1 "
+                    "#############################")
+
         count_of_accidents = analytics1(self.df_dict['driver_df'],
                                         self.conf['analytics1']['gender'])
 
@@ -38,12 +42,20 @@ class Analysis:
                     .format(self.conf['analytics1']['gender'], count_of_accidents))
 
         # Solution of analytics 2
+        logger.info("##############################"
+                    " SOLUTION OF QUESTION 2 "
+                    "#############################")
+
         #self.df_dict['driver_df'], self.conf['analytics1']['gender']
         count_of_vehicle = analytics2(self.df_dict['vehicle_df'],
                                       self.conf['analytics2']['vehicle_type'])
         logger.info("""two wheelers are booked for crashes :{}""".format(count_of_vehicle))
 
         #solution of analytics 3
+        logger.info("##############################"
+                    " SOLUTION OF QUESTION 3 "
+                    "#############################")
+
         state = analytics3(self.df_dict['driver_df'],
                            self.conf['analytics3']['gender'])
 
@@ -51,6 +63,10 @@ class Analysis:
         in which {} are involved: {}""".format(self.conf['analytics3']['gender'], state))
 
         #Solution of Analytics 4
+        logger.info("##############################"
+                    " SOLUTION OF QUESTION 4 "
+                    "#############################")
+
         df = analytics4(self.df_dict['vehicle_df'],
                         self.conf['analytics4']['top_n_vals'])
 
@@ -59,6 +75,10 @@ class Analysis:
         df.show(20,False)
 
         #Solution of analytics 5
+        logger.info("##############################"
+                    " SOLUTION OF QUESTION 5 "
+                    "#############################")
+
         df = analytics5(self.df_dict['vehicle_df'],
                         self.df_dict['driver_df'])
 
@@ -66,6 +86,10 @@ class Analysis:
         df.show(20, False)
 
         #Solution of analytics 6
+        logger.info("##############################"
+                    " SOLUTION OF QUESTION 6 "
+                    "#############################")
+
         df = analytics6(self.df_dict['driver_df'],
                         self.conf['analytics6']['top_n_zip_codes'],
                         self.conf['analytics6']['alchol_result'])
@@ -73,12 +97,20 @@ class Analysis:
         df.show(20,False)
 
         # Solution of analytics 7
+        logger.info("##############################"
+                    " SOLUTION OF QUESTION 7 "
+                    "#############################")
+
         count = analytics7(self.df_dict['damages_df'],
                            self.df_dict['vehicle_df'])
         logger.info("""Distinct Crash IDs where No Damaged Property was observed and Damage Level (VEH_DMAG_SCL~) 
         is above 4 and car avails Insurance: {}""".format(count))
 
         # Solution of analytics 8
+        logger.info("##############################"
+                    " SOLUTION OF QUESTION 8 "
+                    "#############################")
+
         df = analytics8(self.df_dict['vehicle_df'],
                         self.df_dict['driver_df'],
                         self.df_dict['charges_df'],

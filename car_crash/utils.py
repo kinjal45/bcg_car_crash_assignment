@@ -141,7 +141,7 @@ def analytics7(damage_df, veh_df):
     df_no_dmg = damage_df.where(psf.col("DAMAGED_PROPERTY").like("%NO DAMAGE%") | psf.col("DAMAGED_PROPERTY").isNull())
     df = veh_df.select("CRASH_ID","FIN_RESP_TYPE_ID","VEH_DMAG_SCL_1_ID")\
                .where(psf.col("FIN_RESP_TYPE_ID").like(" % INSURANCE % "))\
-               .withColumn("damage_rate", psf.regexp_extract("VEH_DMAG_SCL_1_ID", "\\d+", 0)).where(psf.col("damage_rate") > 4)
+               .withColumn("damage_rate", psf.regexp_extract("VEH_DMAG_SCL_1_ID", "\\d+", 0)).where(psf.col("damage_rate") >= 4)
 
     return df_no_dmg.join(df, on='CRASH_ID').select("CRASH_ID").distinct().count()
 
