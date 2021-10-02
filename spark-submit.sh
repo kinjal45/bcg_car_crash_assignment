@@ -1,0 +1,1 @@
+spark-submit --name "test" --py-files dist\car_crash_solution-1.0.0-py3.7.egg main.py >> logs\logs.log 2>&1 &
