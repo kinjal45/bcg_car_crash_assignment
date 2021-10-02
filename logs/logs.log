@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 2021-10-02 19:53:56 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
 2021-10-02 19:53:57 INFO  SparkContext:54 - Running Spark version 2.3.0
 2021-10-02 19:53:57 INFO  SparkContext:54 - Submitted application: test
@@ -77,85 +76,6 @@
 2021-10-02 19:54:07 INFO: Reading file: restrict_df
 2021-10-02 19:54:07 INFO: ############################## SOLUTION OF QUESTION 1 #############################
 2021-10-02 19:54:11 INFO: the number of crashes (accidents) in 
-=======
-2021-10-02 19:37:44 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2021-10-02 19:37:45 INFO  SparkContext:54 - Running Spark version 2.3.0
-2021-10-02 19:37:45 INFO  SparkContext:54 - Submitted application: test
-2021-10-02 19:37:45 INFO  SecurityManager:54 - Changing view acls to: dh207698
-2021-10-02 19:37:45 INFO  SecurityManager:54 - Changing modify acls to: dh207698
-2021-10-02 19:37:45 INFO  SecurityManager:54 - Changing view acls groups to: 
-2021-10-02 19:37:45 INFO  SecurityManager:54 - Changing modify acls groups to: 
-2021-10-02 19:37:45 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(dh207698); groups with view permissions: Set(); users  with modify permissions: Set(dh207698); groups with modify permissions: Set()
-2021-10-02 19:37:46 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 52288.
-2021-10-02 19:37:46 INFO  SparkEnv:54 - Registering MapOutputTracker
-2021-10-02 19:37:46 INFO  SparkEnv:54 - Registering BlockManagerMaster
-2021-10-02 19:37:46 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
-2021-10-02 19:37:46 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
-2021-10-02 19:37:46 INFO  DiskBlockManager:54 - Created local directory at C:\Users\dh207698\AppData\Local\Temp\blockmgr-a93c518e-5feb-41d8-9b48-da9900657db3
-2021-10-02 19:37:46 INFO  MemoryStore:54 - MemoryStore started with capacity 413.9 MB
-2021-10-02 19:37:46 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
-2021-10-02 19:37:46 INFO  log:192 - Logging initialized @3165ms
-2021-10-02 19:37:46 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
-2021-10-02 19:37:46 INFO  Server:414 - Started @3238ms
-2021-10-02 19:37:46 INFO  AbstractConnector:278 - Started ServerConnector@1a5264f{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
-2021-10-02 19:37:46 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@410beb{/jobs,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@ba100a{/jobs/json,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@120bad{/jobs/job,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1f5e1b3{/jobs/job/json,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@11b92c7{/stages,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@15cadaa{/stages/json,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@14cbb65{/stages/stage,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@dfc7c5{/stages/stage/json,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@dec7a8{/stages/pool,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2eb121{/stages/pool/json,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1c28ec{/storage,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@273485{/storage/json,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@8059ae{/storage/rdd,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@16446a6{/storage/rdd/json,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c5cee{/environment,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1bec4fe{/environment/json,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1fda9ce{/executors,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@c18661{/executors/json,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@34047b{/executors/threadDump,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@116a7b7{/executors/threadDump/json,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@10bd4c2{/static,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1fbfcb6{/,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@c72b60{/api,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1cd6d42{/jobs/job/kill,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@69bbd5{/stages/stage/kill,null,AVAILABLE,@Spark}
-2021-10-02 19:37:46 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://INGURWSLGCMN4Y2.dunnhumby.co.uk:4040
-2021-10-02 19:37:46 INFO  SparkContext:54 - Added file file:/C:/Users/dh207698/git_repo/assignment/main.py at file:/C:/Users/dh207698/git_repo/assignment/main.py with timestamp 1633183666553
-2021-10-02 19:37:46 INFO  Utils:54 - Copying C:\Users\dh207698\git_repo\assignment\main.py to C:\Users\dh207698\AppData\Local\Temp\spark-0cbf400b-9678-42ee-acce-20b6e1312bf2\userFiles-4ba06fe5-4215-4f87-8e1d-100c680465eb\main.py
-2021-10-02 19:37:46 INFO  SparkContext:54 - Added file file:///C:/Users/dh207698/git_repo/assignment/dist/car_crash_solution-1.0.0-py3.7.egg at file:///C:/Users/dh207698/git_repo/assignment/dist/car_crash_solution-1.0.0-py3.7.egg with timestamp 1633183666653
-2021-10-02 19:37:46 INFO  Utils:54 - Copying C:\Users\dh207698\git_repo\assignment\dist\car_crash_solution-1.0.0-py3.7.egg to C:\Users\dh207698\AppData\Local\Temp\spark-0cbf400b-9678-42ee-acce-20b6e1312bf2\userFiles-4ba06fe5-4215-4f87-8e1d-100c680465eb\car_crash_solution-1.0.0-py3.7.egg
-2021-10-02 19:37:46 INFO  Executor:54 - Starting executor ID driver on host localhost
-2021-10-02 19:37:46 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 52330.
-2021-10-02 19:37:46 INFO  NettyBlockTransferService:54 - Server created on INGURWSLGCMN4Y2.dunnhumby.co.uk:52330
-2021-10-02 19:37:46 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
-2021-10-02 19:37:46 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, INGURWSLGCMN4Y2.dunnhumby.co.uk, 52330, None)
-2021-10-02 19:37:46 INFO  BlockManagerMasterEndpoint:54 - Registering block manager INGURWSLGCMN4Y2.dunnhumby.co.uk:52330 with 413.9 MB RAM, BlockManagerId(driver, INGURWSLGCMN4Y2.dunnhumby.co.uk, 52330, None)
-2021-10-02 19:37:46 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, INGURWSLGCMN4Y2.dunnhumby.co.uk, 52330, None)
-2021-10-02 19:37:46 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, INGURWSLGCMN4Y2.dunnhumby.co.uk, 52330, None)
-2021-10-02 19:37:46 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@869938{/metrics/json,null,AVAILABLE,@Spark}
-2021-10-02 19:37:47 INFO  SharedState:54 - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/C:/Users/dh207698/git_repo/assignment/spark-warehouse').
-2021-10-02 19:37:47 INFO  SharedState:54 - Warehouse path is 'file:/C:/Users/dh207698/git_repo/assignment/spark-warehouse'.
-2021-10-02 19:37:47 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@fcaf0e{/SQL,null,AVAILABLE,@Spark}
-2021-10-02 19:37:47 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@9d13d1{/SQL/json,null,AVAILABLE,@Spark}
-2021-10-02 19:37:47 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@825639{/SQL/execution,null,AVAILABLE,@Spark}
-2021-10-02 19:37:47 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@bb2d80{/SQL/execution/json,null,AVAILABLE,@Spark}
-2021-10-02 19:37:47 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1a4295e{/static/sql,null,AVAILABLE,@Spark}
-2021-10-02 19:37:47 INFO  StateStoreCoordinatorRef:54 - Registered StateStoreCoordinator endpoint
-2021-10-02 19:37:47 INFO: Executing Case Study Solution...
-2021-10-02 19:37:47 INFO: Reading configuration file...
-2021-10-02 19:37:47 INFO: Reading file: driver_df
-2021-10-02 19:37:53 INFO: Reading file: vehicle_df
-2021-10-02 19:37:54 INFO: Reading file: charges_df
-2021-10-02 19:37:54 INFO: Reading file: damages_df
-2021-10-02 19:37:54 INFO: Reading file: endorse_df
-2021-10-02 19:37:54 INFO: Reading file: restrict_df
-2021-10-02 19:37:58 INFO: the number of crashes (accidents) in 
->>>>>>> c094101a589f7cd6a32a317da310ec4e5ad2b5a9
                       which number of persons killed are MALE :68191
 2021-10-02 19:54:11 INFO: ############################## SOLUTION OF QUESTION 2 #############################
 2021-10-02 19:54:13 INFO: two wheelers are booked for crashes :757
@@ -228,7 +148,7 @@ only showing top 20 rows
 
 2021-10-02 19:54:39 INFO: ############################## SOLUTION OF QUESTION 7 #############################
 2021-10-02 19:54:41 INFO: Distinct Crash IDs where No Damaged Property was observed and Damage Level (VEH_DMAG_SCL~) 
-        is above 4 and car avails Insurance: 6
+        is above 4 and car avails Insurance: 0
 2021-10-02 19:54:41 INFO: ############################## SOLUTION OF QUESTION 8 #############################
 2021-10-02 19:54:41 INFO: Top 5 Vehicle Makes where drivers are charged with speeding
          related offences, has licensed Drivers, uses top 10 used vehicle colours
